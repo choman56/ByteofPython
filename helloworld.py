@@ -20,13 +20,17 @@ print ('''
            Again with named parameters to format method!'''.format(name=name, age=age))
 
 #
-#   Using f-strings (this command doesn't work! :(
+#   Printing using f-strings
 #
-# print (f'{name} is {age} years old whe he wrote this tiny program using f-strings')
-
+print (f'{name} is {age} years old whe he wrote this tiny program using f-strings')
+print ("")
 #
 # More format method argumentation
 #
-print ""
-print ('4. Precision of 1/3 is {0:.3f}'.format(1.0 / 3))
+print ("4. Printing functionality")
+print ('Precision of 1/3 is {0:.3f}'.format(1.0 / 3))
 print ('{0:_^11}'.format('hello'))
+print ('{name} wrote this program named {filename}'.format(name='Chip', filename="Helloworld"))
+print ('a', end=' ')
+print ('b', end=' ')
+print ('c')
