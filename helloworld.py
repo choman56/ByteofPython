@@ -4,7 +4,7 @@ print ('''1. Hello World!!
     ''')
 
 #
-#   Parameters
+#   Variables examples
 #
 age = 63
 name = 'Chip'
@@ -28,9 +28,28 @@ print ("")
 # More format method argumentation
 #
 print ("4. Printing functionality")
-print ('Precision of 1/3 is {0:.3f}'.format(1.0 / 3))
-print ('{0:_^11}'.format('hello'))
+print ('Precision of 1/3 is {0:.5f}'.format(1.0 / 3))
+print ('{0:_^15}'.format('hello'))
 print ('{name} wrote this program named {filename}'.format(name='Chip', filename="Helloworld"))
 print ('a', end=' ')
 print ('b', end=' ')
 print ('c')
+
+# Indentation error example. Leading space before "print" function
+# i = 5
+#  print("Value is", i)
+
+#
+# Interesting
+#
+print ('\n4. More fun:')
+print('la' * 3)
+k=2
+j=3
+l = j**k
+print('k is',k)
+print('j is',j)
+print('l is',l,'(j**k)')
+print('')
+print('Divide and floor example: 13//3 is', 13//3)
+print('Interesting divide and floor for negative number -13 // 4 is', -13//3, '\nDivide x by y and round down to nearest integer')
